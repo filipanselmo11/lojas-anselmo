@@ -1,0 +1,12 @@
+.card {
+  padding: 24px;
+  &.primary {
+    background: rgba(26, 25, 26, 0.922);
+    border: 1px solid rgb(210, 186, 140);
+    border-radius: 12px;
+  }
+  &.secondary {
+    background: rgba(218, 193, 218, 0.922);
+    border-radius: 16px;
+  }
+}
