@@ -1,9 +1,5 @@
 <mat-card class="card-busca">
-  <img
-    mat-card-image
-    src="{{ src }}"
-    alt="{{ alt }}"
-  >
+  <img mat-card-image src="{{ src }}" alt="{{ alt }}">
   <mat-card-content>
     <ul>
       <li>{{ titulo }}</li>
@@ -11,8 +7,9 @@
     </ul>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button>
+    <button mat-button (click)="openDialog()">
       Detalhes
     </button>
   </mat-card-actions>
+
 </mat-card>

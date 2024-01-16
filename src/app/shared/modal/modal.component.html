@@ -1,0 +1,22 @@
+<section class="modal">
+  <!-- <h1 mat-dialog-title>
+    {{ data.titulo }}
+  </h1> -->
+  <div mat-dialog-content>
+    <!-- <img src="{{ data.src }}" alt="{{ data.alt }}"> -->
+    <mat-card class="card">
+      <mat-card-title>{{ data.titulo }}</mat-card-title>
+      <img mat-card-image src="{{ data.src }}" alt="{{ data.alt }}">
+      <mat-card-content>
+        <p>
+          {{ data.descricao }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div mat-dialog-actions>
+    <button color="primary" mat-flat-button mat-dialog-close>
+      Fechar
+    </button>
+  </div>
+</section>
